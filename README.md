@@ -5,21 +5,23 @@
 
 Sobre   |    Instalação   |    Desafios   |    Tecnologias
 
-💬 Sobre
-Projeto de chatbot utilizando WebSocket.
+## 💬 Sobre
+
+- Projeto de chatbot utilizando WebSocket.
 
 
 Visualização
 
-⚠️ Instalação
+## ⚠️ Instalação
+
 # Instalar todas as dependências necessárias:
-$ npm install
+$ yarn add typeorm
 
 # Iniciar migrations:
-$ npm run typeorm migration:run
+$ yarn typeorm migrations:run
 
 # Iniciar o projeto em localhost:
-$ npm run dev
+$ yarn dev
 
 # Acesse a rota do cliente:
 $ http://localhost:3333/pages/client
@@ -28,14 +30,15 @@ $ http://localhost:3333/pages/client
 $ http://localhost:3333/pages/admin
 
 
-🚩 Desafio
-Aprender Node, TypeScript e aprimorar a utilização de Banco de Dados.
+## 🚩 Desafio
 
-✔️ Tecnologias
-SQLite
-Express
-TypeORM
-TypeScript
+- Aprender NodeJs, TypeScript e aprimorar a utilização de Banco de Dados.
+
+## ✔️ Tecnologias
+- SQLite
+- Express
+- TypeORM
+- TypeScript
 
 
 by Wendel Nogueira ;)
