@@ -28,7 +28,7 @@
 ## ⚠️ Instalação
 
 * Instalar todas as dependências necessárias:
-> $ yarn add typeorm
+> $ yarn add ou npm install
 
 * Iniciar migrations:
 > $ yarn typeorm migrations:run
