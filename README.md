@@ -5,7 +5,7 @@
 
 ## 💬 Sobre
 
-- Projeto de chat suporte utilizando WebSocket.
+- API Chat suporte utilizando WebSocket.
 
 ## ✔️ Tecnologias
 - SQLite
