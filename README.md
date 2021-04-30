@@ -41,7 +41,7 @@
 * [node V14.16](https://nodejs.org/pt-br/download/)
 * [yarn v3.0](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
 
-<h5 align="center">Ou</h5>
+<p align="center">Ou</p>
 
 * [npm v6.14](https://www.npmjs.com/package/download)
 
@@ -55,18 +55,16 @@ $ yarn ou yarn install
 # Iniciar migrations:
 $ yarn typeorm migration:run
 
-# Iniciar o projeto em localhost:
-$ yarn dev
+* Iniciar o projeto em localhost:
+> $ yarn dev
 
-# Acesse a rota do cliente:
-$ http://localhost:3333/pages/client
+* Acesse a rota do cliente:
+> $ http://localhost:3333/pages/client
 
-# Acesse a rota do admin:
-$ http://localhost:3333/pages/admin
+* Acesse a rota do admin:
+> $ http://localhost:3333/pages/admin
 
 ```
-
----
 
 # Por enquanto é só! Obrigado ;)
 <br>
