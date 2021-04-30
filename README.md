@@ -1,24 +1,59 @@
-## Chat Support com NodeJs e Web Socket
+<h1 align="center"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kissclipart.com%2Foffline-chat-clipart-livechat-online-chat-web-chat-7opt0e%2F&psig=AOvVaw2Gsx3-8tTrRMeh6QQ144dC&ust=1619828832981000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLj1qOPapPACFQAAAAAdAAAAABAi" width=80px></h1>
 
-   ![image](https://user-images.githubusercontent.com/66846993/116564666-91104980-a8db-11eb-898d-b756e5a89533.png)
+<h3 align="center">Chat Support</h3>
+
+<p align="center">“Hoje, o ‘eu não sei’, se tornou o ‘eu ainda não sei’.”</p>
+
+<p align="center">
+  <a href="#about">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#requires">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#install">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
+
+## :speech_balloon: Sobre <a name="about"></a>
+
+> API Chat para suporte utilizando WebSocket.
+
+<br>
+
+## :heavy_check_mark: Tecnologias <a name="technologies"></a>
+
+- [SQLite](https://www.npmjs.com/package/sqlite3)
+- [Express](https://expressjs.com/pt-br/)
+- [TypeORM](https://typeorm.io/#/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+<br />
+<table>
+  <tr>
+    <td colspan="1">Visualização</td>
+  </tr>
+  <tr>
+    <td><img src="![image](https://user-images.githubusercontent.com/66846993/116569844-27466e80-a8e0-11eb-8fd2-8320ac894c27.png)" width=1000px /></td></td>
+    <td><img src="[image](https://user-images.githubusercontent.com/66846993/116570254-81dfca80-a8e0-11eb-81a2-bd958e12b598.png)" width=1000px /></td></td>
+    <td><img src="![image](https://user-images.githubusercontent.com/66846993/116570191-72608180-a8e0-11eb-9787-d5a7c78ae971.png)" width=1000px /></td></td>
+  </tr>
+</table>
+
+## :warning: Requisitos <a name="requires"></a>
+
+* [node V14.16](https://nodejs.org/pt-br/download/)
+* [yarn v3.0](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
+
+<h5 align="center">Ou</h5>
+
+* [npm v6.14](https://www.npmjs.com/package/download)
 
 
-Sobre   |    Instalação   |    Desafios   |    Tecnologias
+## :warning: Instalação <a name="install"></a>
 
-## 💬 Sobre
-
-- Projeto de chatbot utilizando WebSocket.
-
-
-Visualização
-
-## ⚠️ Instalação
-
+```bash
 # Instalar todas as dependências necessárias:
-$ yarn add typeorm
+$ yarn ou yarn install
 
 # Iniciar migrations:
-$ yarn typeorm migrations:run
+$ yarn typeorm migration:run
 
 # Iniciar o projeto em localhost:
 $ yarn dev
@@ -29,16 +64,12 @@ $ http://localhost:3333/pages/client
 # Acesse a rota do admin:
 $ http://localhost:3333/pages/admin
 
+```
 
-## 🚩 Desafio
+---
 
-- Aprender NodeJs, TypeScript e aprimorar a utilização de Banco de Dados.
-
-## ✔️ Tecnologias
-- SQLite
-- Express
-- TypeORM
-- TypeScript
-
-
-by Wendel Nogueira ;)
+# Por enquanto é só! Obrigado ;)
+<br>
+<a href="https://github.com/WendelNogueira23">
+<p align="center">Wendel Nogueira</p>
+</a>
