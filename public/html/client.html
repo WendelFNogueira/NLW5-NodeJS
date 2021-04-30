@@ -6,22 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <title></title>
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
+
   <body>
     <div class="chat chat_support" id="chat_in_support">
       <div class="in_support_header">
-        <span>Em suporte ... </span>
-        <div class="icon_close" onclick="closeChat();">
+        <span>Em suporte... </span>
+        <div class="icon_close" onclick="closeChat()">
           <img src="/images/close.png" />
         </div>
       </div>
 
-      <div class="text_support">
+      <div id="text_support" class="text_support">
         <script id="message-user-template" type="text/template">
           <div class="client">
             <span class="name">{{email}}</span>
@@ -31,6 +32,7 @@
             </span>
           </div>
         </script>
+
         <script id="admin-template" type="text/template">
           <div class="admin">
             <span class="admin_name">Atendente</span>
@@ -41,12 +43,9 @@
         <div id="messages" class="chat__messages"></div>
         <!-- <div class="line"></div> -->
       </div>
+
       <div class="message_send">
-        <input
-          type="text"
-          placeholder="Digite sua mensagem aqui"
-          id="message_user"
-        />
+        <input type="text" placeholder="Digite sua mensagem aqui..." id="message_user" />
         <div class="send_message_button" id="send_message_button">
           <img src="/images/send.png" />
         </div>
@@ -82,12 +81,11 @@
         </div>
 
         <div class="button">
-          <button class="btn_cancel">Cancelar</button>
+          <button class="btn_cancel" onclick="closeChat();">Cancelar</button>
           <button class="btn_start_chat" id="start_chat">Iniciar chat</button>
         </div>
       </div>
     </div>
-
     <div>
       <button class="btn_support" id="btn_support" onclick="openChat();">
         <img src="/images/chat.png" /> Suporte
@@ -116,6 +114,7 @@
 
     function closeChat() {
       chat.style.display = "none";
+      chat_in_support.style.display = "none";
     }
 
     function keyUpTextHelp(event) {

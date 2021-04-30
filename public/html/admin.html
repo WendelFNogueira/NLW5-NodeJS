@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <title></title>
@@ -15,28 +15,25 @@
 
   <body>
     <div id="list_users"></div>
-
     <script id="template" type="x-tmpl-mustache">
-      <div id="user{{id}}">
-          <span class="email">Email: {{email}}</span>
+      <div class="card_list">
+        <div id="user{{id}}" class="list_support">
+          <span class="email">email: {{email}}</span>
           <button class="btn_atd" onclick="call('{{id}}')">Entrar em atendimento</button>
+        </div>
       </div>
     </script>
 
     <div id="supports"></div>
-
     <script id="admin_template" type="x-tmpl-mustache">
       <div class="admin" id="admin">
-
-          <span class="in_support">Em atendimento - <strong> {{email}}</strong> </span>
-
-                  <span></span>
-                  <div class="admin_list_messages" id="allMessages{{id}}"></div>
-
-                 <div class="admin_send_message">
-                  <input type="text" id="send_message_{{id}}"/>
-                  <button id="send" class="btn_send" onclick="sendMessage('{{id}}')">Enviar</button>
-                 </div>
+        <span class="in_support">Em atendimento - {{email}}</span>
+        <span></span>
+          <div class="admin_list_messages" id="allMessages{{id}}"></div>
+          <div class="admin_send_message">
+            <input type="text" id="send_message_{{id}}"/>
+            <button id="send" class="btn_send" onclick="sendMessage('{{id}}')">Enviar</button>
+          </div>
       </div>
     </script>
   </body>
