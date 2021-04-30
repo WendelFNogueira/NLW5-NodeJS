@@ -30,9 +30,9 @@
     <td colspan="1">Visualização</td>
   </tr>
   <tr>
-    <td><img src="![image](https://user-images.githubusercontent.com/66846993/116569844-27466e80-a8e0-11eb-8fd2-8320ac894c27.png)" width=1000px /></td></td>
-    <td><img src="[image](https://user-images.githubusercontent.com/66846993/116570254-81dfca80-a8e0-11eb-81a2-bd958e12b598.png)" width=1000px /></td></td>
-    <td><img src="![image](https://user-images.githubusercontent.com/66846993/116570191-72608180-a8e0-11eb-9787-d5a7c78ae971.png)" width=1000px /></td></td>
+    <td><img src="https://user-images.githubusercontent.com/66846993/116569844-27466e80-a8e0-11eb-8fd2-8320ac894c27.png" width=1000px /></td></td>
+    <td><img src="https://user-images.githubusercontent.com/66846993/116570254-81dfca80-a8e0-11eb-81a2-bd958e12b598.png" width=1000px /></td></td>
+    <td><img src="https://user-images.githubusercontent.com/66846993/116570191-72608180-a8e0-11eb-9787-d5a7c78ae971.png" width=1000px /></td></td>
   </tr>
 </table>
 
@@ -41,7 +41,7 @@
 * [node V14.16](https://nodejs.org/pt-br/download/)
 * [yarn v3.0](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
 
-<p align="center">Ou</p>
+<p align="left">Ou</p>
 
 * [npm v6.14](https://www.npmjs.com/package/download)
 
@@ -55,13 +55,13 @@ $ yarn ou yarn install
 # Iniciar migrations:
 $ yarn typeorm migration:run
 
-* Iniciar o projeto em localhost:
+# Iniciar o projeto em localhost:
 > $ yarn dev
 
-* Acesse a rota do cliente:
+# Acesse a rota do cliente:
 > $ http://localhost:3333/pages/client
 
-* Acesse a rota do admin:
+# Acesse a rota do admin:
 > $ http://localhost:3333/pages/admin
 
 ```
